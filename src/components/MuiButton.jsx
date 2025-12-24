@@ -4,6 +4,12 @@ import Stack from '@mui/material/Stack';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import IconButton from '@mui/material/IconButton';
 import ButtonGroup from '@mui/material/ButtonGroup';
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import ToggleButton from '@mui/material/ToggleButton';
+import AlarmIcon from '@mui/icons-material/Alarm';
+import AlarmAddIcon from '@mui/icons-material/AlarmAdd';
+import AlarmOffIcon from '@mui/icons-material/AlarmOff';
+import Fab from '@mui/material/Fab';
 
 const MuiButton = () => {
   return (
@@ -40,6 +46,47 @@ const MuiButton = () => {
                 <Button>right</Button>
             </ButtonGroup>
         </Stack>
+        <Stack direction={'row'}>
+            <ToggleButtonGroup aria-label='text formatting'>
+                <ToggleButton value="bold" aria-label='bold'>
+                    <AlarmIcon/>
+                </ToggleButton>
+                <ToggleButton value="italic" aria-label='italic'>
+                    <AlarmAddIcon/>
+                </ToggleButton>
+                <ToggleButton value="underlined" aria-label='underlined'>
+                    <AlarmOffIcon/>
+                </ToggleButton>    
+            </ToggleButtonGroup>
+        </Stack>
+        <Stack direction={'row'} spacing={2}>
+            <Fab color='primary' aria-label='add'>
+                <AddShoppingCartIcon/>
+            </Fab>
+            <Fab color='secondary' aria-label='alarm'>
+                <AlarmAddIcon/>
+            </Fab>
+            <Fab color='primary' variant='extended' >
+                <AlarmAddIcon/>
+                Alarm
+            </Fab>
+            <Fab color='secondary' disabled>
+                <AlarmOffIcon/>
+            </Fab>
+            <Fab variant='extended' color='primary'>
+                <AlarmAddIcon sx={{mr:1}}/>
+                Alarm
+            </Fab>
+            <Fab variant='extended' color='primary'>
+                <AlarmAddIcon sx={{mr:1}}/>
+                Alarm
+            </Fab>
+            <Fab variant='extended' color='primary'>
+                <AlarmAddIcon sx={{mr:1}}/>
+                Alarm
+            </Fab>
+        </Stack>
+
     </Stack>
   )
 }
