@@ -3,6 +3,7 @@ import Button from '@mui/material/Button'
 import Stack from '@mui/material/Stack';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import IconButton from '@mui/material/IconButton';
+import ButtonGroup from '@mui/material/ButtonGroup';
 
 const MuiButton = () => {
   return (
@@ -31,6 +32,13 @@ const MuiButton = () => {
             <IconButton aria-label='shopping' color='success' size='large'>
                 <AddShoppingCartIcon/>
             </IconButton>
+        </Stack>
+        <Stack direction={'row'}> 
+            <ButtonGroup variant='contained' orientation='vertical' size='small' color='secondary'>
+                <Button>Left</Button>
+                <Button>center</Button>
+                <Button>right</Button>
+            </ButtonGroup>
         </Stack>
     </Stack>
   )
