@@ -1,12 +1,12 @@
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box'
-import MuiTypography from './components/MuiTypography';
+import MuiButton from './components/MuiButton';
 
 function App() {
   return (
     <div style={{ padding: 20 }}>
-      <MuiTypography/>
+      <MuiButton/>
     </div>
   );
 }
