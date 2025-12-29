@@ -4,11 +4,12 @@ import Box from '@mui/material/Box'
 import MuiTextfeild from './components/MuiTextfeild';
 import MuiTypography from './components/MuiTypography';
 import MuiForm from './components/MuiForm';
+import MuiNavigation from './components/MuiNavigation';
 
 function App() {
   return (
     <div style={{ padding: 20 }}>
-      <MuiForm/>
+      <MuiNavigation/>
     </div>
   );
 }
