@@ -1,9 +1,11 @@
 import React from 'react'
 import Typography from '@mui/material/Typography'
+import { brown, green } from '@mui/material/colors'
 
 const MuiTypography = () => {
   return (
     <div>
+        <Typography variant='h1' component={"h4"} sx={{color:"brown"}}>Hello</Typography>
         <Typography variant="h1">Its Arish</Typography>
         <Typography variant='h2'>its usman</Typography>
         <Typography variant='h3'>its zaheen</Typography>
