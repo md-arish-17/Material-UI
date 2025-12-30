@@ -8,11 +8,12 @@ import MuiNavigation from './components/MuiNavigation';
 import MuiCard from './components/MuiCard';
 import MuiModal from './components/MuiModal';
 import MuiContainer from './components/MuiContainer';
+import MuiList from './components/MuiList';
 
 function App() {
   return (
     <div style={{ padding: 20 }}>
-      <MuiContainer/>
+      <MuiList/>
     </div>
   );
 }
