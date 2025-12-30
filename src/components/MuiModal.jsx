@@ -1,4 +1,4 @@
-import { Box, Button, Modal, Typography } from '@mui/material'
+import { Box, Button, Link, Modal, Typography } from '@mui/material'
 import React, { useState } from 'react'
 
 const MuiModal = () => {
@@ -14,6 +14,7 @@ const MuiModal = () => {
                 <Button variant='contained' onClick={()=>{setOpen(false)}}>cancel</Button>
             </Box>
         </Modal>
+        <Link href="https://www.google.com" color='secondary' marginLeft={5} underline='hover'>Privacy and Policy</Link>
     </div>
   )
 }
