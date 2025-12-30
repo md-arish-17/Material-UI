@@ -6,11 +6,12 @@ import MuiTypography from './components/MuiTypography';
 import MuiForm from './components/MuiForm';
 import MuiNavigation from './components/MuiNavigation';
 import MuiCard from './components/MuiCard';
+import MuiModal from './components/MuiModal';
 
 function App() {
   return (
     <div style={{ padding: 20 }}>
-      <MuiCard/>
+      <MuiModal/>
     </div>
   );
 }
