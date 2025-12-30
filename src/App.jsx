@@ -5,11 +5,12 @@ import MuiTextfeild from './components/MuiTextfeild';
 import MuiTypography from './components/MuiTypography';
 import MuiForm from './components/MuiForm';
 import MuiNavigation from './components/MuiNavigation';
+import MuiCard from './components/MuiCard';
 
 function App() {
   return (
     <div style={{ padding: 20 }}>
-      <MuiNavigation/>
+      <MuiCard/>
     </div>
   );
 }
