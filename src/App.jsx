@@ -9,11 +9,12 @@ import MuiCard from './components/MuiCard';
 import MuiModal from './components/MuiModal';
 import MuiContainer from './components/MuiContainer';
 import MuiList from './components/MuiList';
+import MuiAccordian from './components/MuiAccordian';
 
 function App() {
   return (
     <div style={{ padding: 20 }}>
-      <MuiList/>
+      <MuiAccordian/>
     </div>
   );
 }
